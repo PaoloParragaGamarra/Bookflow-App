@@ -12,7 +12,7 @@ export class  BookflowService {
   lastId = 9;
 
   getBooks(){
-    return this.Http.get<any>(`${this.baseUrl}/books`).pipe(
+    return this.Http.get<any>(`http://localhost:8080/api/v1/books`).pipe(
       tap((response) => console.log('API Response:', response))
     );
   }

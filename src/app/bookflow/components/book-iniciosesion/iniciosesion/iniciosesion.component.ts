@@ -5,9 +5,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { Router } from '@angular/router'; // Importa Router
 
-
-
-
 @Component({
   selector: 'app-iniciosesion',
   standalone: true,
