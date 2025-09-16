@@ -1,0 +1,19 @@
+{
+  "emulators": {
+    "singleProjectMode": true,
+    "hosting": {
+      "port": 5000
+    },
+    "ui": {
+      "enabled": true
+    }
+  },
+  "hosting": {
+    "public": "dist/frontend-bookflow-test/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "bookflow-test",
+    "bookflow-test": "bookflow-test"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
